@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://kadphmr8j4nt"]
+
+[ext_resource type="Script" path="res://source/BreakableBlock.gd" id="1_006m3"]
+[ext_resource type="Texture2D" uid="uid://cv7pvfwx5uwtv" path="res://assets/placeholderdirt.png" id="2_ps5ns"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xr104"]
+size = Vector2(2, 2)
+
+[node name="DirtBlock" type="StaticBody2D"]
+script = ExtResource("1_006m3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_xr104")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ps5ns")

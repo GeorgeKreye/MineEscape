@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cydi54dvhxxr"]
+
+[ext_resource type="PackedScene" uid="uid://boeq4kjqv1ioe" path="res://assets/PlayerCharacter.tscn" id="1_pxxle"]
+[ext_resource type="Texture2D" uid="uid://cv7pvfwx5uwtv" path="res://assets/placeholderdirt.png" id="2_xq4ru"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="PlayerCharacter" parent="." instance=ExtResource("1_pxxle")]
+
+[node name="Placeholderdirt" type="Sprite2D" parent="."]
+position = Vector2(129, 0)
+texture = ExtResource("2_xq4ru")

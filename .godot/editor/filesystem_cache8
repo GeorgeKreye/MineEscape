@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696475796
+icon.svg::CompressedTexture2D::697019355771703857::1696208555::1696208563::1::::<><>::
+::res://assets/::1696276627
+DirtBlock.tscn::PackedScene::702097761285189689::1696276188::0::1::::<><>::res://source/BreakableBlock.gd<>uid://j6v2o3rmei5v::::res://icon.svg
+Level.tscn::PackedScene::190120811367542179::1696265090::0::1::::<><>::uid://boeq4kjqv1ioe::::res://assets/PlayerCharacter.tscn
+placeholderdirt.png::CompressedTexture2D::6313815726166659667::1696276625::1696276627::1::::<><>::
+PlayerCharacter.tscn::PackedScene::3378345805442101600::1696265090::0::1::::<><>::res://source/PlayerMovement.gd<>uid://j6v2o3rmei5v::::res://icon.svg
+::res://source/::1696276168
+BreakableBlock.gd::GDScript::-1::1696276168::0::1::::<>StaticBody2D<>::
+PlayerMovement.gd::GDScript::-1::1696275568::0::1::::<>Node<>::
